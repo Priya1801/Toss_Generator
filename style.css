@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(166,239,253,1);
+    
+}
+
+.title{
+    margin-top: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.tosss{
+    background-color: white;
+    padding: 1vw 2.5vw 1vw 2.5vw;
+    border-radius: 2vw; 
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.tosss:hover{
+    background-color: rgb(2, 55, 96);
+    color: white;
+    /* cursor: pointer; */
+    
+}
+
+/* PHONE */
+@media screen and (max-width:500px){
+    body{
+        background-color: rgba(166,239,253,1);
+    }
+    .title{
+        margin-top: 30vw;
+    }
+
+    .container{
+        margin-top: 25vw;
+    }
+    .btn{
+        margin-top: 30vw;
+    }
+    .tosss{
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: medium;
+        border-radius: 2vw;
+        
+    }
+}    
+
+/* TABLET */
+@media  screen and (max-width:750px ) and (min-width:500px) {
+
+    body{
+        background-color: aquamarine;
+    }
+    .title{
+        margin-top: 15vw;
+
+    } 
+    
+    .container{
+        margin-top: 15vw;
+    }
+
+    .btn{
+        margin-top: 15vw;
+    }
+    .tosss{
+        padding: 2vw 4vw 2vw 4vw;
+        font-size: medium;
+        border-radius: 2vw;
+    }
+    
+}
